@@ -1,0 +1,10 @@
+{
+    "jira_host": "jira.myhost.com",
+    "username": "user.name",
+    "password": "pa55w0rd",
+    "report_path": "/secure/ConfigureReport.jspa",
+    "projects": {
+        "DEMO1" : "13401",
+        "DEMO2": "22900"
+    }
+}
