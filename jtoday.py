@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 __author__ = 'a.reksc@gmail.com'
-version = "0.1.1"
+version = "0.1.2"
 
 import os
 import sys
