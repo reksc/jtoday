@@ -66,6 +66,7 @@ def init():
     report = fetch_report(build_url())
 
 def output_result():
+    print(selected_user + " @ " + selected_date)
     print(report)
 
 def build_url():
