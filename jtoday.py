@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 __author__ = 'a.reksc@gmail.com'
-version = "0.1.2"
+__version__ = "0.1.3"
 
 import os
 import sys
@@ -43,11 +43,11 @@ def init():
     parser.add_argument('-u','--user', help='JIRA username to track',required=False)
     parser.add_argument('-p','--project', help='project ID (AUTOTEN, NCM, NEMTWO)', required=False)
     parser.add_argument('-d','--date', help="date to generate worklog for [DD.MM.YY]", required=False)
-    parser.add_argument('--version', '-v', help='display version')
+    parser.add_argument('--version', '-v', help='display version', action="store_true")
     args = parser.parse_args()
 
     if args.version:
-        print("jtoday.py v" + version)
+        print("jtoday.py v" + __version__)
         sys.exit()
 
     if args.project:
